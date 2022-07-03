@@ -7,16 +7,21 @@ h1 {
     font-size: 50px;
 }
 
-.orange {
-    color: orange;
+h2 {
+    font-size: 40px;
 }
 
-.blog {
-    color: brown;
+.blue-color {
+    color: #143be7;
 }
 
-section {
+.orange-color {
+    color: #ffa500;
+}
+
+.flexible-container {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -40,4 +45,34 @@ section {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item {
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 20px;
+    border-radius: 10px;
+
+
+}
+
+#Full-Stack-Developer {
+    box-shadow: 5px 5px 20px #f05b5b;
+    border-left: 7px solid #ff0000;
+}
+
+#Baby-Web-Developer {
+    box-shadow: 5px 5px 20px #6881f1;
+    border-left: 7px solid #143be7;
+}
+
+footer p {
+    text-align: center;
 }
